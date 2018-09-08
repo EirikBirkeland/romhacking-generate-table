@@ -6,6 +6,7 @@ if (!process.argv[2] || !process.argv[3]) {
   console.log("Usage: generate_table.js <a-z start hex> <A-Z start hex>");
   process.exit(0);
 }
+
 const hexLowercaseStart = process.argv[2];
 const hexUppercaseStart = process.argv[3];
 if (!isHex(hexLowercaseStart) || !isHex(hexUppercaseStart)) {
