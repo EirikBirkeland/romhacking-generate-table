@@ -7,7 +7,7 @@ use 5.10.1;
 use Data::Printer;
 
 
-say "Please input starting point for [a]: ";
+say "Input 8 bit hex starting point for the letter [a]: ";
 
 my $lc;
 my $uc;
@@ -17,7 +17,7 @@ chomp $lc;
 $lc = hex($lc);
 
 
-say "Please input starting point for [A]: ";
+say "Input 8 bit hex starting point for the letter [A]: ";
 $uc = <> if !$ARGV[1];
 $uc = $ARGV[1] if $ARGV[1];
 chomp $uc;
