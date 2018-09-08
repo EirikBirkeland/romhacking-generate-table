@@ -1,0 +1,26 @@
+{
+  "name": "@eirikbirkeland/romhacking-generate-table",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node --experimental-modules index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EirikBirkeland/romhacking-generate-table.git"
+  },
+  "author": "Eirik Birkeland (https://github.com/EirikBirkeland)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EirikBirkeland/romhacking-generate-table/issues"
+  },
+  "homepage": "https://github.com/EirikBirkeland/romhacking-generate-table#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
