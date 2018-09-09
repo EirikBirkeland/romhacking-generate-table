@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generateTable utility creates a table for lowercase 1`] = `
+Array [
+  Array [
+    "a",
+    "40",
+  ],
+  Array [
+    "b",
+    "41",
+  ],
+  Array [
+    "c",
+    "42",
+  ],
+  Array [
+    "d",
+    "43",
+  ],
+  Array [
+    "e",
+    "44",
+  ],
+  Array [
+    "f",
+    "45",
+  ],
+  Array [
+    "g",
+    "46",
+  ],
+  Array [
+    "h",
+    "47",
+  ],
+  Array [
+    "i",
+    "48",
+  ],
+  Array [
+    "j",
+    "49",
+  ],
+  Array [
+    "k",
+    "4A",
+  ],
+  Array [
+    "l",
+    "4B",
+  ],
+  Array [
+    "m",
+    "4C",
+  ],
+  Array [
+    "n",
+    "4D",
+  ],
+  Array [
+    "o",
+    "4E",
+  ],
+  Array [
+    "p",
+    "4F",
+  ],
+  Array [
+    "q",
+    "50",
+  ],
+  Array [
+    "r",
+    "51",
+  ],
+  Array [
+    "s",
+    "52",
+  ],
+  Array [
+    "t",
+    "53",
+  ],
+  Array [
+    "u",
+    "54",
+  ],
+  Array [
+    "v",
+    "55",
+  ],
+  Array [
+    "x",
+    "56",
+  ],
+  Array [
+    "y",
+    "57",
+  ],
+  Array [
+    "z",
+    "58",
+  ],
+]
+`;
+
+exports[`generateTable utility creates a table for uppercase 1`] = `
+Array [
+  Array [
+    "A",
+    "80",
+  ],
+  Array [
+    "B",
+    "81",
+  ],
+  Array [
+    "C",
+    "82",
+  ],
+  Array [
+    "D",
+    "83",
+  ],
+  Array [
+    "E",
+    "84",
+  ],
+  Array [
+    "F",
+    "85",
+  ],
+  Array [
+    "G",
+    "86",
+  ],
+  Array [
+    "H",
+    "87",
+  ],
+  Array [
+    "I",
+    "88",
+  ],
+  Array [
+    "J",
+    "89",
+  ],
+  Array [
+    "K",
+    "8A",
+  ],
+  Array [
+    "L",
+    "8B",
+  ],
+  Array [
+    "M",
+    "8C",
+  ],
+  Array [
+    "N",
+    "8D",
+  ],
+  Array [
+    "O",
+    "8E",
+  ],
+  Array [
+    "P",
+    "8F",
+  ],
+  Array [
+    "Q",
+    "90",
+  ],
+  Array [
+    "R",
+    "91",
+  ],
+  Array [
+    "S",
+    "92",
+  ],
+  Array [
+    "T",
+    "93",
+  ],
+  Array [
+    "U",
+    "94",
+  ],
+  Array [
+    "V",
+    "95",
+  ],
+  Array [
+    "W",
+    "96",
+  ],
+  Array [
+    "X",
+    "97",
+  ],
+  Array [
+    "Y",
+    "98",
+  ],
+  Array [
+    "Z",
+    "99",
+  ],
+]
+`;
