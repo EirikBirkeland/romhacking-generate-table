@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "node --experimental-modules index.mjs",
+    "start": "node --no-warnings --experimental-modules index.mjs",
     "test": "jest"
   },
   "repository": {
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/EirikBirkeland/romhacking-generate-table#readme",
   "dependencies": {
     "babel-preset-env": "^1.7.0",
+    "colors": "^1.3.2",
     "jest": "^23.5.0",
     "lodash": "^4.17.10"
   },

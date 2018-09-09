@@ -1,16 +1,24 @@
 import isHex from './lib/isHex.mjs';
 import generateTable from './lib/generateTable.mjs';
 import _ from 'lodash';
+import colors from 'colors';
+
+colors.setTheme({
+  warn: 'red',
+  emphasize: 'bold',
+})
+
+const log = console.log;
 
 if (!process.argv[2] || !process.argv[3]) {
-  console.log("Usage: generate_table.js <a-z start hex> <A-Z start hex>");
+  log("Usage: generate_table.js <a-z start hex> <A-Z start hex>".emphasize);
   process.exit(0);
 }
 
 const hexLowercaseStart = process.argv[2];
 const hexUppercaseStart = process.argv[3];
 if (!isHex(hexLowercaseStart) || !isHex(hexUppercaseStart)) {
-  console.log("hex error");
+  log("hex error");
   process.exit(0);
 }
 
@@ -20,6 +28,16 @@ const uppercaseTable = generateTable("A", hexUppercaseStart);
 const intersectionResult = _.intersection(lowercaseTable.map(x => x[1]), uppercaseTable.map(x => x[1]));
 
 if (intersectionResult.length) {
-  console.log(intersectionResult);
-  console.error("The tables overlap!");
+  console.warn("The tables overlap!".warn);
+  process.exit(0);
 }
+
+// Pretty-print results
+lowercaseTable.forEach((x, i) => {
+  log(`${x[0]}\t${x[1]}`);
+});
+log('');
+uppercaseTable.forEach((x, i) => {
+  log(`${x[0]}\t${x[1]}`);
+});
+
