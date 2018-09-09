@@ -20,6 +20,6 @@ const uppercaseTable = generateTable("A", hexUppercaseStart);
 const intersectionResult = _.intersection(lowercaseTable.map(x => x[1]), uppercaseTable.map(x => x[1]));
 
 if (intersectionResult.length) {
-  console.log(intersectionResult)
-  console.error("The tables overlap!")
+  console.log(intersectionResult);
+  console.error("The tables overlap!");
 }
