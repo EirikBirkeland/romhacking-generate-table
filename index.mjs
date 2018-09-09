@@ -1,4 +1,4 @@
-import isHex from './lib/isHex.mjs';
+import is8BitHex from './lib/is8BitHex.mjs';
 import generateTable from './lib/generateTable.mjs';
 import _ from 'lodash';
 import colors from 'colors';
